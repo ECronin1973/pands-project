@@ -92,7 +92,7 @@ sns.set_style("darkgrid")
 plt.figure(figsize = (10, 7)) 
 x = iris["sepal_length"] 
 
-sns.distplot(x, bins = 20, color = "blue",)
+sns.displot(x, bins = 20, color = "blue",)
 plt.title("Histagram - Sepal Length(cm)") # set title
 plt.xlabel("Sepal_Length_cm") # set length
 plt.ylabel("Count") # set yaxis to count
@@ -105,7 +105,7 @@ sns.set()
 plt.figure(figsize = (10, 7))
 x = iris["sepal_width"]  
 
-sns.distplot(x, bins = 20, color = "blue")
+sns.displot(x, bins = 20, color = "blue")
 plt.title("Histagram- Sepal Width (cm)") # set title
 plt.xlabel("Sepal_width_cm") # set width
 plt.ylabel("Count") # set yaxis to count
@@ -117,7 +117,7 @@ sns.set()
 plt.figure(figsize = (10, 7)) 
 x = iris["petal_length"] 
 
-sns.distplot(x, bins = 20, color = "blue")
+sns.displot(x, bins = 20, color = "blue")
 plt.title("Histagram - Petal Length(cm)") # set title
 plt.xlabel("Petal_Length_cm") # set length
 plt.ylabel("Count") # set yaxis to count
@@ -130,7 +130,7 @@ plt.figure(figsize = (10, 7))  # Code sets the size of the figure to 10 inches b
 x = iris["petal_width"]  # Code selects the petal width column from the iris dataset and assigns it to the variable
 
 # Create histogram of the petal width data
-sns.distplot(x, bins = 20, color = "blue")
+sns.displot(x, bins = 20, color = "blue")
 plt.title("Histagram - Petal Width(cm)") # set title
 plt.xlabel("Petal_Width_cm") # set width
 plt.ylabel("Count") # set yaxis to count
