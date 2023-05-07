@@ -85,10 +85,15 @@ IRIS SETOSA |Sepal Length|Sepal Width|Petal Length|Petal Width|
 
 Four histogram Diagrams are generated from the which will display Petal length (petal_length.png), Petal width (petal_width.png), Sepal length (sepal_length.png) and Sepal width(sepal_length.png).  Each histogram gives a count value on the Y axis and describes what the histogram relates to along with length /  width in cm on the X axis.
    
- 
+![Petal Length Image](petal_length.png) 
+![Petal Width Image](petal_width.png)
+![Sepal Length Image](sepal_length.png)
+![Sepal Width Image](sepal_width.png)
+
+
 ## Scatterplot Diagrams
 Two scatterplot diagrams are generate which show the distribution of a) Sepal Length and Width and b) Petal Length and Width across the three species of Iris.
-   
+![Scatterplot Image](scatter_plot_graphs.png)    
 (* note: Setosa petals are smaller so are easier to segregate, they are red in color.  The other two are harder to separate
 
 # Findings
@@ -118,8 +123,8 @@ The following online resources were used to complete this project and compile th
 11. Writing readme.md files on Github (https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
 ### Other Repositories were researched on the world wide web and viewed as to their approach to researching the Fishers Iris Dataset.  The following are repositories viewed
-12. Analysis of the Fisher's Iris Dataset by Geetha Karthikesan , 2019 [Link to Project PDF] (GitHub - geetharamson/Fisher-s-Iris-Dataset)
-13. Analysis of the Fisher's Iris Dataset by Ian McLoughlin, 2019  [Link to Project PDF ](https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf )
-14. Analysis of the Fisher's Iris Dataset by Gabriel Mulligan, 2019  [Link to Project PDF ](GitHub - gabrielmulligan/fishersirisdataset: An analysis of Fisher's Iris Dataset)
-15. Analysis of the Fisher's Iris Dataset by “Willie2511”, 2020  [Link to Project PDF ](GitHub - Willie2511/Fishers-Iris-Project: Fisher's Iris Dataset)
+12. Analysis of the Fisher's Iris Dataset by Geetha Karthikesan , 2019 (https://github.com/geetharamson/Fisher-s-Iris-Dataset))
+13. Analysis of the Fisher's Iris Dataset by Ian McLoughlin, 2019 (https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf )
+14. Analysis of the Fisher's Iris Dataset by Gabriel Mulligan, 2019 (https://github.com/gabrielmulligan/fishersirisdataset)
+15. Analysis of the Fisher's Iris Dataset by “Willie2511”, 2020 (https://github.com/Willie2511/Fishers-Iris-Project)
 
