@@ -65,20 +65,6 @@ virginica.plot(x="petal_length", y="petal_width", kind="scatter", ax=ax[1], labe
 ax[0].set(title='Sepal Comparison Graph ', xlabel='Sepal Length (cm)', ylabel='Sepal Width (cm)')
 ax[1].set(title='Petal Comparison Graph',  xlabel='Petal Length (cm)', ylabel='Petal Width (cm)')
 
-
-# I want to draw attention to specific distribution patterns in the Scatterplots so I use the annotate and arrowprops
-# functions to point out the data that shows a specific pattern.
-# the text is the text I want to output, the xy is the scatterpoint co-ordinates that I want to point the arrow to. 
-# The xytext are the co-ordinates where I want to start printing the text.
-
-plt.annotate('Satosa petals are easier to segregate as they are smaller than other varieties', xy=(1.6, 0.6), xytext=(1.7, 0.7),
-        arrowprops=dict(arrowstyle="->", facecolor='red'),
-        )
-plt.annotate('Versicolor and Virginica are bunched closer together', xy=(4.5, 1.7), xytext=(1.0, 2.0),
-        arrowprops=dict(arrowstyle="->", facecolor='green'),
-        )
-plt.annotate('so harder to seperate', xy=(4.5, 1.7), xytext=(1.0, 1.9))
-
 # output the legend for each graphs
 ax[0].legend()
 ax[1].legend()
